@@ -63,17 +63,14 @@ input {
     }
 
     & .icon_user {
-      display: flex;
       padding-right: 0.5%;
     }
 
     & .login_container {
-      display: flex;
       padding-right: 0.5%;
     }
 
     & .register_container {
-      display: flex;
       padding-right: 0.5%;
       padding-left: 0.5%;
     }
@@ -88,7 +85,6 @@ input {
     padding: 2% 0% 1% 0%;
 
     & .logo_container {
-      display: flex;
       margin-right: 2%;
       padding-right: 6%;
       img {
@@ -121,7 +117,7 @@ input {
 
     }
 
-    & .carrito_button {
+    & .carrito_container {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -135,7 +131,6 @@ input {
   }
 
   & .division_bar {
-    display: flex;
     border-bottom: solid 1px var(--thrid_color_aplha);
     width: 100%;
     margin-bottom: 1%;
