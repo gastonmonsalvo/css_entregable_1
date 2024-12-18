@@ -13,18 +13,19 @@
   );
 
   & h1 {
-    font-size: 200px;
+    font-size: 14rem;
     font-family: marvel;
     font-weight: 600;
     letter-spacing: 0.15em;
     word-spacing: 0.125px;
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: right center;
     background-image: url(/src/assets/images/capitan_barato.jpg);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    text-transform:uppercase;
+    text-transform: uppercase;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #00000074;
     filter: drop-shadow(10px 12px 12px black);
